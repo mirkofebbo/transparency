@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Sketch from './transparency/Transparency';
 import HeaderItem from '../Header';
 import TextItem from '../Text';

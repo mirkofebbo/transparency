@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import Sketch from "react-p5";
 
-let loadData;
-
 
 export default class Logo extends React.Component {
 
@@ -59,15 +57,10 @@ export default class Logo extends React.Component {
         this.center = p5.createVector(0, 0, -50);
         this.col = p5.color(0);
         
-        var alpha = 255;
         this.sectorColor = [[204, 100, 100],
                             [36, 100, 100],
                             [111, 100, 100]
         ];    
-
-        // for(let i = 0; i < this.data[0].length; i++){
-        //     this.textScreen.push(p5.createGraphics(300,10));
-        // }
     }
     
     display(p5, selection){
@@ -82,10 +75,10 @@ export default class Logo extends React.Component {
 
         for (var i = 0; i < this.data[0].length; i++) {
 
-            if(i%3 == 0) this.depth += 20;
-            if(this.data[1][i] == 'economic') sector = 0;
-            else if(this.data[1][i] == 'social') sector = 1;
-            else if(this.data[1][i] == 'environment') sector = 2;
+            if(i%3 === 0) this.depth += 20;
+            if(this.data[1][i] === 'economic') sector = 0;
+            else if(this.data[1][i] === 'social') sector = 1;
+            else if(this.data[1][i] === 'environment') sector = 2;
             this.companyName = this.data[0][i];
             area = this.data[2][i];
             sentiment = this.data[3][i];
@@ -121,7 +114,6 @@ export default class Logo extends React.Component {
     shape(p5, index) {
         var x1, y1, z1;
         var x2, y2, z2;
-        var x3, y3, z3;
         var x4, y4, z4;
 
         p5.colorMode(p5.HSB, 100, 100);

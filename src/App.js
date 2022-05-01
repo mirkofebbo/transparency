@@ -1,7 +1,4 @@
-import logo from './logo.svg';
 import React from 'react';
-
-import Sketch from './components/sketch';
 import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
 import Navbar from './components/Navbar';

@@ -6,37 +6,16 @@ import { useLocation } from 'react-router-dom'
 
 // import DataController from "./data-controller"
 
-let max_width = 200;
-let max_height = 200;
+
 let page_max_width = 200;
 let myLogo = new Logo();
-let companyNames = ['berkshire hathaway', 'microsoft', 'fedex', 'four seasons hotel', 
-                    'ups', 'canadian national railway', 'caterpillar inc', 
-                    'waste management', 'xbox', 'skype', 'linkedin', 'github' , 
-                    'bill and melinda gates foundation'];
-var data = require('./data/test_df.json'); // forward slashes will depend on the file location
 
-// function HeaderView() {
-//     const location = useLocation();
-//     console.log(location.pathname);
-//     return <span>Path : {location.pathname}</span>
-//   }
+var data = require('./data/test_df.json'); // forward slashes will depend on the file location
 
 export default (props) => {
     const [p5, setP5] = useState();
     const location = useLocation();
-    // state = {
-    //     color: 'white'
-    //   }
-    
-    //   listenScrollEvent = e => {
-    //     if (window.scrollY > 400) {
-    //       setState({color: 'black'})
-    //     } else {
-    //        setState({color: 'white'})
-    //     }
-    //   }
-    // Just register event as mounted
+
     useEffect(() => {
         window.addEventListener("resize", windowResized);
         return () => {
@@ -61,7 +40,7 @@ export default (props) => {
         p5.background(255);
         p5.normalMaterial();
 
-        if(location.pathname == '/Visuals'){
+        if(location.pathname === '/Visuals'){
             p5.orbitControl();
         } else {
             p5.rotateZ(p5.frameCount * 0.0002 + 100);
