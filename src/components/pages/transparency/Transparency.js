@@ -13,15 +13,15 @@ let myLogo = new Logo();
 var data = require('./data/test_df.json'); // forward slashes will depend on the file location
 
 export default (props) => {
-    const [p5, setP5] = useState();
+    // const [p5, setP5] = useState();
     const location = useLocation();
 
-    useEffect(() => {
-        window.addEventListener("resize", windowResized);
-        return () => {
-            window.removeEventListener("resize", windowResized);
-        }
-    }, []);
+    // useEffect(() => {
+    //     window.addEventListener("resize", windowResized);
+    //     return () => {
+    //         window.removeEventListener("resize", windowResized);
+    //     }
+    // }, []);
 
     
     const preload = (p5) => {
@@ -29,7 +29,7 @@ export default (props) => {
     }
 
     const setup = (p5,canvasParentRef) => {
-        setP5(p5)
+        // setP5(p5)
   
         p5.createCanvas(window.innerWidth, window.innerHeight, p5.WEBGL).parent(canvasParentRef);
         
@@ -53,15 +53,15 @@ export default (props) => {
 
     }
 
-    function windowResized(p5) {
-        // keep in mind, `p5` can be `undefined`
-        // so check it before using
-        if (p5) {
-            page_max_width =  window.innerWidth;
-            p5.resizeCanvas(page_max_width, window.innerHeight);
-        }        
-    }
+    // function windowResized(p5) {
+    //     // keep in mind, `p5` can be `undefined`
+    //     // so check it before using
+    //     if (p5) {
+    //         page_max_width =  window.innerWidth;
+    //         p5.resizeCanvas(page_max_width, window.innerHeight);
+    //     }        
+    // }
       
-    return <Sketch preload={preload} setup={setup} draw={draw} windowResized={windowResized}/>;
+    return <Sketch preload={preload} setup={setup} draw={draw} />;
 
 }
