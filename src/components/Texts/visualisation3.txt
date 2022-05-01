@@ -1,0 +1,26 @@
+In the case of transparency we will expand on the straight of the coxcomb. By using some of the lows of aesthetic experience from V.S Ramachandran. 
+
+Grouping: each disc section corresponds to a category; environment, social and economic instead of time.  
+
+Contrast: by placing dissimilar colour next to another by having 1 distinct colour by section
+
+Isolation: limiting a single corporation impact to one area per disc section.
+
+Generic Viewpoint: taking advantage of a 3D environment to include overlapping objects where each area is a company. (Thus each one is has an area for each section) 
+
+Visual Metaphors: Mental tunnel between seemingly unrelated ideas by exposing the number of corporations one human is responsible for.
+
+Perceptual Problem Solving: Enjoyment/satisfaction from discovering something by forcing a user to draw conclusions,this case would be to see the corporate extent of one human.  
+
+Next up we have the colours, each section has a distinct representative colour.
+Environment: is green for its obvious implication.
+Social: is orange for its friendliness as it inspires cheerfulness, confidence, it symbolises the change of seasons, in Canada, it is associated with a social political party. 
+Economics: blue is calm, productive, stable and also sad and a reference to blue economy, a book by Gunter Pauli to promote sustainable and green economy.
+
+Regarding colour interaction, blue and orange are complementary colours that create a pleasing contrast. Beside green is an intermediate colour when it comes to its feeling of cool or warm depending on the colour beside it. If the colour is warm green will feel cool and if the colour is cool green will be warm. Thus strengthening the link between the two sections and underlying the importance of both sections impact on the environment. 
+
+Furthermore, on this particular version, we explore colour variance by changing the HSV saturation and value thus making the colour darker the more negative the impact is and lighter the more positive it is. The positive and negative score will be an average of all the text extracted and complemented with the number of penalties, since we are still unsure how to map the monetary amount. 
+
+Now only left the position and dimension of the arc/company. We have not yet defined exact science to define those with the data extracted. Thus for now, the overall data amount extracted will define the amount of area it will take. This way, it brings to the attention of the company that we gather more information and present a more reliable assessment. As for the dimension, knowing the score of the company and comparing it to all the others we can get its area. After which the height, width as well as the position are randomly defined as a placeholder as a way to include chaos to underline that it is not yet completed.
+
+“Bringing a system to the chaotic situation of hyperaesthesia is also one of the strategies of investigative aesthetics. We need not always make sense. Unpredictability, chaos and disorder can be useful or necessary.” (Matthew Fuller, 1. Hyperaesthesia: Not Making Sense )

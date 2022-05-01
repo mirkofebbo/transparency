@@ -1,0 +1,5 @@
+Since this project aims to inform users to change their buying behaviours it is targeting everyone. But, considering the context of the project and our inexperience at making surveys, the population is composed mainly of the students that took the data visualisation class as well as friends.
+
+The survey is divided into three main parts. In the first part is a series of questions aimed at pinpointing the user's awareness of the hyper object border and its impact on industry’s different sectors (economic, social and environmental). The structure of the grid uses the nominal scale as the row and an ordinal scale as columns, with awareness levels. The questions are a self-evaluation to see how much they think they know about a particular industry. In a way this paved the way to boost user’s confidence for them to offer harsher criticism in the next sections.
+ 
+The second section evaluates people's interests in the project by asking them how much they are willing to pay to have access to this kind of information.

@@ -1,0 +1,29 @@
+
+To encompass this project we will extract key theoretical concepts from multiple sources. We would like to start developing the frame in which the project aim to get, by looking at the 
+
+Forensic Architecture group at Goldsmiths University of London. As they use architectural techniques and technologies to investigate cases of state violence and violations of human rights around the world. Where they developed their own way of visually interpreting complex situations with investigative aesthetics. 
+“a weaving together of separate media elements, technologies of vision, imaging, automation and detection, into a series of essay-films that offered deep critical and investigative interrogation of the intersection of politics and technology – is a possible entry point to describe a mode of practice that we want to call Investigative Aesthetics”
+
+By relying on open source information, algorithm, AI and digital representation to investigate sensible data. Data and information encompassed as: 
+
+Aesthetics: defined as an approach about assembling and exploring ways to recognise a multiplicity of different forms of sensation, 
+Hyper-aesthetics: defined as a way to understand large network of aesthetics and huge amount of information, 
+Hyperaesthesia; defined as an absurd amount of information that cannot be reduced to a simpler state. It is accepted as a part of unpredictability, chaos, a neurological condition in which sense perception radically overloads.
+
+Furthermore we can correlate it to Jane Bennett agency of assemblages where all the elements create a living assemblage. With borders and bodies subject to change. She also mentions how thoses borders can affect others by developing a theory of distributive agency and responsibility between the human and nonhuman divide.
+
+Then encompass those theory within Timothy Morton Hyperobjects. As instances that cannot be comprehend by humans, without help ,as their shear size and temporality define what our brain can comprehend and how these hyper-object trive in consumerism at the cost of the environment. 
+
+Finally, take some knowledge from Information visualisation : perception for design by Colin Ware to build up a visualisation for the hyper-object that is the environment, social and economical impact of one individual. 
+
+ While the state of this dissertation also aims to link in with the ideas of Timothy Morton, with the hyper-object, Jane Bennett, with the power of things and Matthew Fuller, with his aesthetic, hyper-aesthetics and hyperaesthesia for his investigative aesthetics. For us it sounds like simple concepts that have been explored and pushed beyond our mortal understanding. Good exemple is found during a talk Jane Bennett was offering regarding her research book vibrant matter. Where an audience member describing herself as having a linear brain asks to make Jane's argumentation more understandable which she then attempts, but ends with: 
+
+“Which is very difficult to talk about without sounding crazy.”. 
+
+Beside there is Matthew Fuller and Eyal Weizman with their Investigative Aesthetics where one one side they are responsible for creating in-depth and comprehensive investigations that push the boundary on how to do an investigation by using open source data and technology. While on the other hand create an extensive book that goes over their notion of aesthetics for about 10 pages, which can be summarised:
+
+ “So aesthetics is an approach that is fundamentally about assembling, and finding the means to recognise, a multiplicity of different forms of sensation.”. 
+
+As for Timothy Morton he was building a superb argumentation relating his notion of hyper-object to the environment, sustainability and time but fell flat because of our linear brain. This is not the place to argue about the attention entry cost of those writing, the justification behind their research or why they find the need to name and explain those concepts that they created. We just feel that there must be a way to make it more accessible. We will attempt to point out wherever their theories might apply to visual projects.
+
+So I will also create my own terminology with Hyper-human, that can be simply defined: as a human with so much accumulated wealth that his decisions affect many human lives via its environment, socio-economic impact. And now we will be looking at our proposition to visualise a hyper-human.

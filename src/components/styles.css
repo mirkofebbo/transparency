@@ -1,0 +1,98 @@
+/*
+COLLOR PALLETTE 
+https://coolors.co/009db5-ffe1a8-ffa50a-e26d5c-472d30
+  Blue Munsell    - #009DB5
+  Peach           - #FFE1A8
+  Terra Cotta     - #E26D5C
+  Catawba         - #723D46
+  Old Burgundy    - #472D30
+*/
+
+
+/* GLOBAL STYLES
+--------------------------------------*/
+
+hr{
+    display: block;
+    padding: 0;
+    margin: 0;
+    border-top: 5px solid #FFE1A8;
+}
+
+.header_wrap{
+    text-align: center;
+    margin: 5rem 25%;
+    padding: 60px 0; 
+}
+
+.sub_title_warp{
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+.text_warp{
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    text-align: center;
+    padding: 0;
+    margin: 5rem 5%;
+}
+.body_warp{
+    text-align: left;
+    margin: 1rem 1rem;
+
+}
+
+.title_warp{
+    text-align: left;
+    padding: 0;
+    margin: 0.5rem 0;
+}
+
+.background_col{
+    background: white;
+    opacity: 80%;
+}
+    .img_container {
+    float: left;
+    width: 35%;
+    height: 100%;
+    padding: 5px;
+    margin: 0 5rem;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .img_warp {
+    opacity: 80%;
+    margin: 0 auto;
+    top: 0px;
+    right: 0px;
+    bottom: 10px;
+    left: 0px;
+    display: flex;
+    width: 80%;
+    max-height: 0 auto;
+    object-fit: cover;
+    transition: all 0.2s linear;
+  }
+
+  .video_responsive {
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    margin: 5rem 5%;
+  }
+  
+  .video_responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }

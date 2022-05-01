@@ -1,0 +1,1 @@
+Further tailored google search is done for each section where up to 100 websites are extracted for each query altho due to access restriction and cookie block not all of them will make it into the final list, further analysis will be needed to find out which kind of website is being pushed out.

@@ -1,0 +1,9 @@
+Since we already know what the text is about due to the search query and assume in which category it is related to there is no imminent need for text classification. The next step is to interpret the text to define if it is positive, negative or neutral. 
+ 
+Then each text is processed, using the NLTK library and the Vader sentiment analysis.
+
+NLTK stands for Natural Language Toolkit and is used to process language data. It was developed at the University of Pennsylvania, it supports classification, tokenization, stemming, tagging, parsing, and semantic reasoning functionalities.
+
+As for Vader, the Valence Aware Dictionary for Sentiment Reasoning is a model used for text sentiment analysis that is sensitive to both polarity (positive/negative) and intensity (strength) of emotion. It is a sentiment lexicon or a dictionary of word and sentence with their positive or negative rating the list is open source. 
+
+Vader shines for social media posts under 280 words due to its limitation to single sentiment analysis, thus it might have trouble making accurate selection on longueur articles selected during the google scrape but will be more than sufficient for the reddit post. I have given an attempt at using other out of the box sentiment analysis tools but sadly my computer has been unreliable to load the libraries. To have a more precise output there would be the need to use a more advanced natural language processing system like Naqanet that can efficiently answer questions like what material product “N” is made of? We could then use that list to find out the raw materials, and perhaps at some point tailor it to know how much a product travelled.

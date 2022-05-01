@@ -1,0 +1,9 @@
+And to add more to the social section the company sub reddit is scrapped for user posts and comments, offering a look at what the customer thinks, feels and what problems he encountered.
+
+This will be all the data gathering for now, further sources will then need to depend on which type of company it is thus a more reactive research method. In this case we are still very much scraping the hyper-aesthetics without yet getting in the Aesthetic aspect of each element. Going deeper would mean to look at say Iphone products what are the raw materials. Then calculate the quantity extracted for, say one year, for each material. And comparing it with active mining operations, recycling centres, and oil for plastic. Then assembly, worker location/wage/ working hours, pcb production, final assembly, and transport. And then we could consider the life span of the product. Afterward this process is repeated for each product of the corporation and then each corporation for the main investor/ CEO.
+
+I have also included my research regarding the training of a ML classification model that will not be used due to its accuracy and that the classification can happen within the query.
+
+The training dataset is based on a large scope, as it is scraping text related to the economy, environment and worker condition. From websites like the Mirror, the Guardian, the Economist and a variety of links and text extracted from subreddit posts. Totaling to ​​7153 texts after scraping and cleaning.
+
+This extraction process is automatic. By using the Selenium library it can control a webpage within Chrome using the html code location found by inspecting the page. The advantage really shines once the program gets to scrape URL links for articles as it can gather all of the links in a short amount of time and press next N times. You can find a process video here:
