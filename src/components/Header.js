@@ -10,7 +10,7 @@ function HeaderItem(props) {
             <h1>{props.title}</h1>
             <hr></hr>
             <div className='sub_title_warp'>
-            <body>{props.sub_title}</body>
+              <p>{props.sub_title}</p>
             </div>
         </div>
      

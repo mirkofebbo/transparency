@@ -9,14 +9,14 @@ var abstracttxt = require("../Texts/abstract.txt");
 function Home() {  
 
     return (
-        <>
+        <div>
         <div className='sketch_background'>
           <Sketch ></Sketch>
         </div>
   
         <HeaderItem title = 'Transparency' sub_title = 'The dissertation'></HeaderItem>
         <TextItem title = 'Abstract' text = {abstracttxt}></TextItem>
-        </>
+        </div>
     );
   }
 

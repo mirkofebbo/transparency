@@ -47,7 +47,7 @@ var bibliography = require("../Texts/bibliography.txt")
 function Dissertation() {  
 
     return (
-      <>
+      <div>
       <div className='sketch_background'>
         <Sketch ></Sketch>
       </div>
@@ -102,7 +102,7 @@ function Dissertation() {
       <HeaderItem title = 'Bibliography' sub_title = ''></HeaderItem>
       <TextItem title = '' text = {bibliography} ></TextItem>
 
-      </>
+      </div>
     );
   }
 
