@@ -98,8 +98,7 @@ export default class Logo extends React.Component {
             if (this.companyName === selection) {
                 this.col = this.sectorColor[sector];      
             } else if (selection === 'all'){
-    
-                this.col = [this.sectorColor[sector]];
+                this.col = this.sectorColor[sector];
             } else {
                 this.col = [this.sectorColor[sector][0], 20, 100];
             }

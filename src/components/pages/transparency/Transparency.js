@@ -41,13 +41,19 @@ export default (props) => {
         p5.normalMaterial();
         if(location.pathname === '/Visuals'){
             p5.orbitControl();
+
+            myLogo.display(p5, props.handleClick);
+
         } else {
+            
             p5.rotateZ(p5.frameCount * 0.0002 + 100);
             p5.rotateX(p5.frameCount * 0.0002 + 500);
             p5.rotateY(p5.frameCount * 0.0002);
+            myLogo.display(p5, 'all');
+
+
         }
 
-        myLogo.display(p5, props.handleClick);
     }
 
     function windowResized(p5) {
