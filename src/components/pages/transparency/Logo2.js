@@ -111,7 +111,6 @@ export default class Logo extends React.Component {
             this.largeRadious = this.smallRadious + height;
 
             this.shape(p5, i);
-            
         }
     }
     
