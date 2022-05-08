@@ -1,0 +1,20 @@
+Year 1
+1.      Update the algorithm:
+1.1     Sentiment analysis
+1.2     Data 
+1.3     Dynamic query 
+2.      Explore digital data visualisation option.
+3.      Sketch a sculptural piece. 
+
+Year 2 
+1.      Test the algorithm;
+1.1     Analyse the data/sentiment 
+1.2     Optimise for time/model
+2.      Get feed back on the digital visual
+3.      Create maquette + test mechanisme.
+
+Year 3 
+1.      Optimise the pipeline.
+2.      Build the sculptural piece.
+
+

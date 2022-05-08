@@ -44,7 +44,12 @@ function Navbar() {
               </li>
               <li className='nav-item'>
                 <Link to="/Dissertation" className='nav-links' onClick={closeMobileMenu}>
-                  Dissertation
+                  Gold MFA Dissertation
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <Link to="/Proposal" className='nav-links' onClick={closeMobileMenu}>
+                  UAL PHD Proposal
                 </Link>
               </li>
               <li className='nav-item'>

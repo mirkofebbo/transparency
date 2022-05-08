@@ -1,0 +1,31 @@
+Matthew Fuller and Eyal Weizman, Investigative Aesthetics, Conflicts and Commons in the Politics of Truth (2021)
+
+Timothy Morton, Hyperobjects: Philosophy and Ecology after the End of the World, University Of Minnesota Press (2013)
+
+Jane Bennett, Vibrant Matter: A Political Ecology of Things, Duke University Press Books (2010)
+
+Artistry and Agency in a World of Vibrant Matter , The New School, (2011) https://www.youtube.com/watch?v=q607Ni23QjA&t=3321s
+
+Colin Ware Information visualisation : perception for design Morgan Kaufmann; 3rd edition (2012)
+
+The Information Revolution, HARVEY M. DEITEL, BARBARA DEITEL, in An Introduction to Information Processing, 1986
+
+Revealed: 50 million Facebook profiles harvested for Cambridge Analytica in major data breach
+
+The Guardian Carole Cadwalladr and Emma Graham-Harrison Sat 17 Mar 2018
+https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election
+
+OXFAM, (2017), Just 8 men own same wealth as half the world
+
+A 19-year-old built a flight-tracking Twitter bot. Elon Musk tried to pay him to stop. Protocol Veronica Irwin 2022
+https://www.protocol.com/elon-musk-flight-tracker
+
+Eric Wallace, Yizhong Wang, Sujian Li, Sameer Singh, Matt Gardner, Do NLP Models Know Numbers? Probing Numeracy in Embeddings, https://aclanthology.org/D19-1534.pdf Allen Institute for Artificial Intelligence, Peking University ,University of California, Irvine, 2019
+
+Ying Ma, NLP: How does NLTK.Vader Calculate Sentiment?, Medium, (2020)
+https://medium.com/ro-codes/nlp-how-does-nltk-vader-calculate-sentiment-6c32d0f5046b
+
+Statistics & Evidence Based Healthcare, florence-nightingale,
+https://www.florence-nightingale.co.uk/coxcomb-diagram-1858/
+
+

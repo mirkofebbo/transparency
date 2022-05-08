@@ -15,7 +15,7 @@ function Home() {
         </div>
   
         <HeaderItem title = 'Transparency' sub_title = 'The dissertation'></HeaderItem>
-        <TextItem title = 'Abstract' text = {abstracttxt}></TextItem>
+        <TextItem title = 'Abstract' text_file = {abstracttxt}></TextItem>
         </div>
     );
   }

@@ -53,54 +53,54 @@ function Dissertation() {
       </div>
     
       <HeaderItem title = 'Visually Interpreting Hyper-humans' sub_title = 'Hyper-human terminology is tredmark'></HeaderItem>
-      <TextItem title = 'Intoduction' text = {intro}></TextItem>
+      <TextItem title = 'Intoduction' text_file = {intro}></TextItem>
 
       <HeaderItem title = 'Literature Review' sub_title = 'Conceptual research'></HeaderItem>
-      <TextItem title = '' text = {literature}></TextItem>
+      <TextItem title = '' text_file = {literature}></TextItem>
       <img className='img_warp' src= {map} alt="map"/>
 
       <HeaderItem title = 'Methodology' sub_title = 'Techniques and tools'></HeaderItem>
-      <TextItem title = '' text = {methodology} ></TextItem>
+      <TextItem title = '' text_file = {methodology} ></TextItem>
       <img className='img_warp' src= {bill} alt="bill"/>
-      <TextItem title = 'Data' text = {data1} ></TextItem>
+      <TextItem title = 'Data' text_file = {data1} ></TextItem>
       <img className='img_warp' src= {subsidy} alt="data_sub"/>
-      <TextItem title = '' text = {data2} ></TextItem>
+      <TextItem title = '' text_file = {data2} ></TextItem>
       <img className='img_warp' src= {query} alt="data_sub"/>
-      <TextItem title = '' text = {data3} ></TextItem>
-      <YoutubeEmbed embedId="AjcRvkq-lZw " />
+      <TextItem title = '' text_file = {data3} ></TextItem>
+      <YoutubeEmbed embedId="AjcRvkq-lZw" />
       <div className='clearfix'>
           <img src= {tot} className='img_container' alt="tot"  />
           <img src= {model_selection} className='img_container' alt="models"  />
       </div>
-      <TextItem title = '' text = {data4} ></TextItem>
+      <TextItem title = '' text_file = {data4} ></TextItem>
       <div className='clearfix'>
           <img src= {T_SNE} className='img_container' alt="tot"  />
           <img src= {PCA} className='img_container' alt="models"  />
       </div>
-      <TextItem title = 'Sentiment Analysis' text = {sentiment} ></TextItem>
-      <TextItem title = 'Visualisation' text = {visualisation1} ></TextItem>
+      <TextItem title = 'Sentiment Analysis' text_file = {sentiment} ></TextItem>
+      <TextItem title = 'Visualisation' text_file = {visualisation1} ></TextItem>
       <img className='img_warp' src= {bandwidth} alt="data_sub"/>
-      <TextItem title = '' text = {visualisation2} ></TextItem>
+      <TextItem title = '' text_file = {visualisation2} ></TextItem>
       <img className='img_warp' src= {coxcomb} alt="data_sub"/>
-      <TextItem title = '' text = {visualisation3} ></TextItem>
+      <TextItem title = '' text_file = {visualisation3} ></TextItem>
 
 
       <HeaderItem title = 'Finding' sub_title = 'Results'></HeaderItem>
-      <TextItem title = 'survey' text = {survey1} ></TextItem>
+      <TextItem title = 'survey' text_file = {survey1} ></TextItem>
       <img className='img_warp' src= {tot_user} alt="data_sub"/>
-      <TextItem title = '' text = {survey2} ></TextItem>
+      <TextItem title = '' text_file = {survey2} ></TextItem>
       <img className='img_warp' src= {general} alt="data_sub"/>
-      <TextItem title = '' text = {survey3} ></TextItem>
+      <TextItem title = '' text_file = {survey3} ></TextItem>
       <img className='img_warp' src= {pay} alt="data_sub"/>
-      <TextItem title = '' text = {survey4} ></TextItem>
+      <TextItem title = '' text_file = {survey4} ></TextItem>
       <img className='img_warp' src= {info} alt="data_sub"/>
-      <TextItem title = '' text = {survey5} ></TextItem>
+      <TextItem title = '' text_file = {survey5} ></TextItem>
 
       <HeaderItem title = 'Conclusion' sub_title = ''></HeaderItem>
-      <TextItem title = '' text = {conclusion} ></TextItem>
+      <TextItem title = '' text_file = {conclusion} ></TextItem>
 
       <HeaderItem title = 'Bibliography' sub_title = ''></HeaderItem>
-      <TextItem title = '' text = {bibliography} ></TextItem>
+      <TextItem title = '' text_file = {bibliography} ></TextItem>
 
       </div>
     );

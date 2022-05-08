@@ -52,7 +52,6 @@ export default class Logo extends React.Component {
         for(var key in this.loadData.sentiment){
             this.data[3].push(this.loadData.sentiment[key]);
         }
-        this.companyName = 
         this.size = this.loadData.length;
         this.center = p5.createVector(0, 0, -50);
         this.col = p5.color(0);
@@ -83,6 +82,8 @@ export default class Logo extends React.Component {
             area = this.data[2][i];
             sentiment = this.data[3][i];
             var spacing = sector * 120;
+
+    
             if(sentiment < 0){
                 sentiment = (sentiment*-1)*0.01;
                 width = area*(1+sentiment);
@@ -94,12 +95,15 @@ export default class Logo extends React.Component {
                 width = area*sentiment;
                 this.col[2] = p5.map(sentiment, 0, 1, 50, 100);
             }
-        
-            if(selection == 'na'){
-                this.col = this.sectorColor[sector];
+            if (this.companyName === selection) {
+                this.col = this.sectorColor[sector];      
+            } else if (selection === 'all'){
+    
+                this.col = [this.sectorColor[sector]];
             } else {
-                this.col = [this.sectorColor[sector][0], 20, 100]
+                this.col = [this.sectorColor[sector][0], 20, 100];
             }
+            
             this.startingAngle = p5.map(p5.noise((p5.frameCount * 0.0005) + (i *1000)),0,1, spacing, spacing + 120 - width);
             this.endAngle = this.startingAngle + width;
             

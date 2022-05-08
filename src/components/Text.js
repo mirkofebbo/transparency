@@ -15,7 +15,7 @@ function TextItem(props) {
             <div className='background_col'>
               <hr></hr>
               <div className='body_warp'>
-              <TextFileReader txt={props.text}/>
+              <TextFileReader txt={props.text_file}/>
               </div>
               <hr></hr>
             </div>
