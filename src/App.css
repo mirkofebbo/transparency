@@ -73,26 +73,3 @@ h2{
   grid-row: 1 / 5;
 }
 
-
-/* Selection button */
-.comp_selection_btn{
-	background-color:transparent;
-	border-radius:5px;
-	border:1px solid #FFE1A8;
-	display:inline-block;
-	cursor:pointer;
-	color:#472D30;
-  font-family: 'Montserrat', sans-serif;
-	font-size:15px;
-	font-weight:bold;
-	padding:11px 23px;
-	text-decoration:none;
-}
-
-.comp_selection_btn:hover {
-	background-color:#FFE1A8;
-}
-.comp_selection_btn:active {
-	position:relative;
-	top:1px;
-}

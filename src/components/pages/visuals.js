@@ -1,7 +1,8 @@
 import React , { useState } from 'react';
 import Sketch from './transparency/Transparency';
 import { Button } from '../Button';
-
+// import './styles.css';
+// import '../App.css';
 
 
 
@@ -11,8 +12,6 @@ function Visuals() {
     'ups', 'canadian national railway', 'caterpillar inc', 
     'waste management', 'xbox', 'skype', 'linkedin', 'github' , 
     'bill and melinda gates foundation']
-
- 
 
     const [data, setData] = useState('');
 
@@ -27,7 +26,9 @@ function Visuals() {
           <div className='sketch_background'>
             <Sketch handleClick ={data}></Sketch>
           </div>
-          <ul>{listItems}</ul>
+          <div className='button_container'> 
+            <ul>{listItems}</ul>
+          </div>
         </div>
     );
   }

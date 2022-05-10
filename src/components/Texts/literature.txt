@@ -1,4 +1,3 @@
-
 To encompass this project we will extract key theoretical concepts from multiple sources. We would like to start developing the frame in which the project aim to get, by looking at the 
 
 Forensic Architecture group at Goldsmiths University of London. As they use architectural techniques and technologies to investigate cases of state violence and violations of human rights around the world. Where they developed their own way of visually interpreting complex situations with investigative aesthetics. 
@@ -24,6 +23,6 @@ Beside there is Matthew Fuller and Eyal Weizman with their Investigative Aesthet
 
  “So aesthetics is an approach that is fundamentally about assembling, and finding the means to recognise, a multiplicity of different forms of sensation.”. 
 
-As for Timothy Morton he was building a superb argumentation relating his notion of hyper-object to the environment, sustainability and time but fell flat because of our linear brain. This is not the place to argue about the attention entry cost of those writing, the justification behind their research or why they find the need to name and explain those concepts that they created. We just feel that there must be a way to make it more accessible. We will attempt to point out wherever their theories might apply to visual projects.
+As for Timothy Morton he was building a superb argumentation relating his notion of hyper-object to the environment, sustainability and time but is difficult for our linear brain to comprehend. We will attempt to point out wherever their theories might apply to visual projects.
 
-So I will also create my own terminology with Hyper-human, that can be simply defined: as a human with so much accumulated wealth that his decisions affect many human lives via its environment, socio-economic impact. And now we will be looking at our proposition to visualise a hyper-human.
+Furthermore we will propose the terminology Hyper-human, that can be simply defined: as a human with so much accumulated wealth that his decisions affect many human lives via its environment, socio-economic impact.

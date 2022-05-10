@@ -40,6 +40,7 @@ var survey2 = require("../Texts/survey2.txt")
 var survey3 = require("../Texts/survey3.txt")
 var survey4 = require("../Texts/survey4.txt")
 var survey5 = require("../Texts/survey5.txt")
+var visual = require("../Texts/visual.txt")
 
 var conclusion = require("../Texts/conclusion.txt")
 var bibliography = require("../Texts/bibliography.txt")
@@ -96,6 +97,8 @@ function Dissertation() {
       <img className='img_warp' src= {info} alt="data_sub"/>
       <TextItem title = '' text_file = {survey5} ></TextItem>
 
+      <TextItem title = 'Visual' text_file = {visual} ></TextItem>
+      
       <HeaderItem title = 'Conclusion' sub_title = ''></HeaderItem>
       <TextItem title = '' text_file = {conclusion} ></TextItem>
 

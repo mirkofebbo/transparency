@@ -6,4 +6,4 @@ I have also included my research regarding the training of a ML classification m
 
 The training dataset is based on a large scope, as it is scraping text related to the economy, environment and worker condition. From websites like the Mirror, the Guardian, the Economist and a variety of links and text extracted from subreddit posts. Totaling to ​​7153 texts after scraping and cleaning.
 
-This extraction process is automatic. By using the Selenium library it can control a webpage within Chrome using the html code location found by inspecting the page. The advantage really shines once the program gets to scrape URL links for articles as it can gather all of the links in a short amount of time and press next N times. You can find a process video here:
+This extraction process is automatic. By using the Selenium library it can control a webpage within Chrome using the html code location found by inspecting the page. The advantage really shines once the program gets to scrape URL links for articles as it can gather all of the links in a short amount of time and press next N times.
