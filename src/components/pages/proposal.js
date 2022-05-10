@@ -29,7 +29,7 @@ function Proposal() {
         <Sketch ></Sketch>
       </div>
     
-      <HeaderItem title = 'UAL PHD Proposal' sub_title = 'Ongoing'></HeaderItem>
+      <HeaderItem title = 'PHD Proposal' sub_title = 'Ongoing'></HeaderItem>
       <TextItem title = 'Abstract' text_file = {abstract}></TextItem>
         
       <TextItem title = 'Literature Review' text_file = {literature}></TextItem>

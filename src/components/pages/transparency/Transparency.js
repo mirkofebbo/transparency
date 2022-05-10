@@ -9,7 +9,7 @@ import { useLocation } from 'react-router-dom'
 
 let page_max_width = 200;
 let myLogo = new Logo();
-
+let textScreen;
 var data = require('./data/test_df.json'); // forward slashes will depend on the file location
 
 export default (props) => {
@@ -34,6 +34,11 @@ export default (props) => {
         p5.createCanvas(window.innerWidth, window.innerHeight, p5.WEBGL).parent(canvasParentRef);
         
         myLogo.setup(p5);
+
+        textScreen = p5.createGraphics(400,400)
+        textScreen.textSize(22);
+
+        textScreen.text("Bill Gates",10,22)
     }
 
     const draw = (p5) => {
@@ -41,7 +46,6 @@ export default (props) => {
         p5.normalMaterial();
         if(location.pathname === '/Visuals'){
             p5.orbitControl();
-
             myLogo.display(p5, props.handleClick);
 
         } else {
@@ -50,10 +54,12 @@ export default (props) => {
             p5.rotateX(p5.frameCount * 0.0002 + 500);
             p5.rotateY(p5.frameCount * 0.0002);
             myLogo.display(p5, 'all');
-
-
         }
-
+        p5.push();
+        p5.translate(0, 0, 175);
+        p5.image(textScreen, -50, -25);
+        p5.pop();
+        
     }
 
     function windowResized(p5) {
